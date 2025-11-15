@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-size: 15px;
+    background-color: #123148;
 }
 
 .contenedor{
@@ -9,18 +10,13 @@ body{
     background-color: #2F4A5E;
     display: flex;
     padding: 10px;
+    max-width: 100%;
     justify-content: center;
     align-items: center;
     border-radius: 1px 1px 10px 10px;
 }
 
-.contenedor-button{
-
-    
-
-}
-
-button{
+.contenedor button{
     width: 80px;
     height: 25px;
     border: 2px solid #0f2331;
@@ -34,4 +30,56 @@ button{
 
 button:hover{
     background-color: #22455f;
+}
+
+/*INPUTS*/
+
+h3{
+    margin: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contenedor-formulario{
+    background-color: #22455f;
+    margin: 0;
+    margin: auto;
+    padding: 6px 20px;
+    width: 250px;
+    height: 260px;
+    text-align: center;
+    margin-top: 10%;
+    border: 4px ridge #123148;
+
+}
+
+.contenedor-usuario{
+    padding: 15px;
+}
+
+.contenedor-usuario-button{
+    margin-top: 20px;
+}
+
+.button-button{
+    width: 100px;
+    height: 30px;
+    border: 2px solid #0f2331;
+    background-color: #22455f;
+    color: white;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.contenedor-usuario input{
+    margin-top: 8px;
+    background-color: transparent;
+    color: white;
+}
+
+.button-button:hover{
+    background-color: #0c2335;
 }
